@@ -2,6 +2,7 @@ import { useState, useCallback } from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Layout from './components/Layout';
 import Toast from './components/Toast';
+// Added version info for GitHub integration test
 import HomePage from './pages/HomePage';
 import TodoPage from './pages/todo/TodoPage';
 import BoardListPage from './pages/board/BoardListPage';
