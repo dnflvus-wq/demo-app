@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-02-19 16:12:05",
+  "target": "/board/write",
+  "gold_standard_count": 16,
+  "condition_a": {
+    "condition": "A (Baseline - no clarify)",
+    "avg_coverage": 0,
+    "coverages": [],
+    "avg_tc_count": 0,
+    "tc_counts": [],
+    "runs": 0
+  },
+  "condition_b": {
+    "condition": "B (Clarify v2)",
+    "avg_coverage": 87.5,
+    "coverages": [
+      87.5
+    ],
+    "avg_tc_count": 30.0,
+    "tc_counts": [
+      30
+    ],
+    "runs": 1
+  },
+  "delta": 87.5,
+  "result": "PASS"
+}

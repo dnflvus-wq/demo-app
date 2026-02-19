@@ -1,0 +1,88 @@
+﻿{
+    "pageTitle":  "DemoApp - Todo \u0026 Board",
+    "thumbnail":  "[REMOVED]",
+    "elementSummary":  "{\"link\":4,\"button\":5}",
+    "elements":  [
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "DemoApp",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/a",
+                         "elementTag":  "a",
+                         "elementText":  "DemoApp",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-xl font-bold text-blue-600 active\",\"href\":\"/\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Home",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a",
+                         "elementTag":  "a",
+                         "elementText":  "Home",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors bg-blue-50 text\",\"href\":\"/\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Todo",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a[2]",
+                         "elementTag":  "a",
+                         "elementText":  "Todo",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 h\",\"href\":\"/todo\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Board",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a[3]",
+                         "elementTag":  "a",
+                         "elementText":  "Board",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 h\",\"href\":\"/board\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "Todo 시작하기\n할 일을 관리해보세요",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[2]/button",
+                         "elementTag":  "button",
+                         "elementText":  "Todo 시작하기\n할 일을 관리해보세요",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-3 bg-blue-600 text-white rounded-xl p-5 hover:bg-blue-700 transition-colors\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "게시판 가기\n글을 읽고 작성해보세요",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[2]/button[2]",
+                         "elementTag":  "button",
+                         "elementText":  "게시판 가기\n글을 읽고 작성해보세요",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-3 bg-white border border-gray-200 rounded-xl p-5 hover:bg-gray-50 transition-c\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "두번째 공지",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[3]/ul/li/button",
+                         "elementTag":  "button",
+                         "elementText":  "두번째 공지",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-sm text-gray-700 hover:text-blue-600 text-left\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "Vite 설정 방법",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[3]/ul/li[2]/button",
+                         "elementTag":  "button",
+                         "elementText":  "Vite 설정 방법",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-sm text-gray-700 hover:text-blue-600 text-left\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "🔒 비밀 글 테스트",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[3]/ul/li[3]/button",
+                         "elementTag":  "button",
+                         "elementText":  "🔒 비밀 글 테스트",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-sm text-gray-700 hover:text-blue-600 text-left\",\"href\":null,\"value\":null}"
+                     }
+                 ]
+}

@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "입력 필드의 유효성 규칙은 무엇인가요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "최소 글자 수 제한",
+          "label": "최소 글자 수 제한"
+        },
+        {
+          "value": "최대 글자 수 제한",
+          "label": "최대 글자 수 제한"
+        },
+        {
+          "value": "특수 문자 사용 가능 여부",
+          "label": "특수 문자 사용 가능 여부"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "form 제출 시 성공/실패 피드백은 어떻게 되나요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "성공 메시지",
+          "label": "성공 메시지"
+        },
+        {
+          "value": "실패 메시지",
+          "label": "실패 메시지"
+        },
+        {
+          "value": "피드백 없음",
+          "label": "피드백 없음"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "에러 상태 표시 방법은 무엇인가요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "빈 필드를 빨간색으로 강조",
+          "label": "빈 필드를 빨간색으로 강조"
+        },
+        {
+          "value": "오류 메시지 텍스트 표시",
+          "label": "오류 메시지 텍스트 표시"
+        },
+        {
+          "value": "아이콘 표시",
+          "label": "아이콘 표시"
+        }
+      ]
+    }
+  ],
+  "summary": "AI 테스트케이스 서비스 페이지의 입력 필드 유효성 및 피드백 확인",
+  "recommendedCounts": [
+    15,
+    25,
+    40
+  ]
+}

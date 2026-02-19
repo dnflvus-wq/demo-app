@@ -1,0 +1,133 @@
+﻿{
+    "pageTitle":  "DemoApp - Todo \u0026 Board",
+    "thumbnail":  "[REMOVED]",
+    "elementSummary":  "{\"link\":4,\"button\":10}",
+    "elements":  [
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "DemoApp",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/a",
+                         "elementTag":  "a",
+                         "elementText":  "DemoApp",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-xl font-bold text-blue-600\",\"href\":\"/\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Home",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a",
+                         "elementTag":  "a",
+                         "elementText":  "Home",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 h\",\"href\":\"/\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Todo",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a[2]",
+                         "elementTag":  "a",
+                         "elementText":  "Todo",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 h\",\"href\":\"/todo\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Board",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a[3]",
+                         "elementTag":  "a",
+                         "elementText":  "Board",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors bg-blue-50 text\",\"href\":\"/board\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "글쓰기",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div/button",
+                         "elementTag":  "button",
+                         "elementText":  "글쓰기",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-4 py-2 text-sm rounded-lg bg-blue-600 text-white hover:bg-blue-700\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "두번째 공지",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[2]/table/tbody/tr/td[3]/button",
+                         "elementTag":  "button",
+                         "elementText":  "두번째 공지",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-gray-800 hover:text-blue-600 flex items-center gap-1\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "Vite 설정 방법",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[2]/table/tbody/tr[2]/td[3]/button",
+                         "elementTag":  "button",
+                         "elementText":  "Vite 설정 방법",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-gray-800 hover:text-blue-600 flex items-center gap-1\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "비밀 글 테스트",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[2]/table/tbody/tr[3]/td[3]/button",
+                         "elementTag":  "button",
+                         "elementText":  "비밀 글 테스트",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-gray-800 hover:text-blue-600 flex items-center gap-1\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "React 질문있어요",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[2]/table/tbody/tr[4]/td[3]/button",
+                         "elementTag":  "button",
+                         "elementText":  "React 질문있어요",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-gray-800 hover:text-blue-600 flex items-center gap-1\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "자유게시판 첫 글",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[2]/table/tbody/tr[5]/td[3]/button",
+                         "elementTag":  "button",
+                         "elementText":  "자유게시판 첫 글",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-gray-800 hover:text-blue-600 flex items-center gap-1\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  null,
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[3]/button",
+                         "elementTag":  "button",
+                         "elementText":  null,
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"p-2 rounded-lg text-gray-500 hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "1",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[3]/button[2]",
+                         "elementTag":  "button",
+                         "elementText":  "1",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"w-8 h-8 rounded-lg text-sm font-medium bg-blue-600 text-white\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "2",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[3]/button[3]",
+                         "elementTag":  "button",
+                         "elementText":  "2",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"w-8 h-8 rounded-lg text-sm font-medium text-gray-500 hover:bg-gray-100\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  null,
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div[3]/button[4]",
+                         "elementTag":  "button",
+                         "elementText":  null,
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"p-2 rounded-lg text-gray-500 hover:bg-gray-100 disabled:opacity-30 disabled:cursor-not-allowed\",\"href\":null,\"value\":null}"
+                     }
+                 ]
+}

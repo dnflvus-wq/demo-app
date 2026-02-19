@@ -1,0 +1,163 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "게시글 제목은 몇 글자 이상이어야 하나요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "0",
+          "label": "제한 없음"
+        },
+        {
+          "value": "1",
+          "label": "1자 이상"
+        },
+        {
+          "value": "5",
+          "label": "5자 이상"
+        },
+        {
+          "value": "10",
+          "label": "10자 이상"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "본문 작성 시 사용 가능한 텍스트 에디터의 기능은 무엇인가요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "bold",
+          "label": "굵게"
+        },
+        {
+          "value": "italic",
+          "label": "기울임"
+        },
+        {
+          "value": "underline",
+          "label": "밑줄"
+        },
+        {
+          "value": "list",
+          "label": "리스트 추가"
+        },
+        {
+          "value": "link",
+          "label": "링크 추가"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "카테고리 선택 시 사용자가 선택할 수 있는 카테고리의 수는 몇 개까지인가요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "1",
+          "label": "1개만"
+        },
+        {
+          "value": "3",
+          "label": "최대 3개"
+        },
+        {
+          "value": "5",
+          "label": "최대 5개"
+        },
+        {
+          "value": "제한 없음",
+          "label": "제한 없음"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "게시글에 태그를 추가할 수 있는 최대 개수는 얼마인가요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "1",
+          "label": "1개"
+        },
+        {
+          "value": "3",
+          "label": "3개"
+        },
+        {
+          "value": "5",
+          "label": "5개"
+        },
+        {
+          "value": "제한 없음",
+          "label": "제한 없음"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "파일 첨부 시 한 파일의 최대 크기는 얼마인가요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "2MB",
+          "label": "2MB 이하"
+        },
+        {
+          "value": "5MB",
+          "label": "5MB 이하"
+        },
+        {
+          "value": "10MB",
+          "label": "10MB 이하"
+        },
+        {
+          "value": "제한 없음",
+          "label": "제한 없음"
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "게시글을 임시 저장할 수 있는 기능은 제공되나요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "yes",
+          "label": "네, 제공된다."
+        },
+        {
+          "value": "no",
+          "label": "아니요, 제공되지 않는다."
+        }
+      ]
+    },
+    {
+      "id": "q7",
+      "question": "작성을 완료한 후 사용자가 선택할 수 있는 게시글 상태는 무엇인가요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "공개",
+          "label": "공개"
+        },
+        {
+          "value": "비공개",
+          "label": "비공개"
+        },
+        {
+          "value": "임시저장",
+          "label": "임시저장"
+        }
+      ]
+    }
+  ],
+  "summary": "게시판 글쓰기와 관련된 요소 및 제한 사항에 대한 질문입니다.",
+  "recommendedCounts": [
+    5,
+    8,
+    12
+  ]
+}

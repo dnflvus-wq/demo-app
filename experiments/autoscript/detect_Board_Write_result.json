@@ -1,0 +1,106 @@
+﻿{
+    "pageTitle":  "DemoApp - Todo \u0026 Board",
+    "thumbnail":  "[REMOVED]",
+    "elementSummary":  "{\"link\":4,\"input\":3,\"select\":1,\"checkbox\":1,\"button\":2}",
+    "elements":  [
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "DemoApp",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/a",
+                         "elementTag":  "a",
+                         "elementText":  "DemoApp",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-xl font-bold text-blue-600\",\"href\":\"/\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Home",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a",
+                         "elementTag":  "a",
+                         "elementText":  "Home",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 h\",\"href\":\"/\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Todo",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a[2]",
+                         "elementTag":  "a",
+                         "elementText":  "Todo",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 h\",\"href\":\"/todo\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Board",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a[3]",
+                         "elementTag":  "a",
+                         "elementText":  "Board",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors bg-blue-50 text\",\"href\":\"/board\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "INPUT",
+                         "elementId":  "post-title",
+                         "elementName":  "post-title",
+                         "elementXpath":  "//*[@id=\"post-title\"]",
+                         "elementTag":  "input",
+                         "elementText":  null,
+                         "attributes":  "{\"type\":\"text\",\"placeholder\":\"제목을 입력하세요\",\"class\":\"w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 borde\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "INPUT",
+                         "elementId":  "post-author",
+                         "elementName":  "post-author",
+                         "elementXpath":  "//*[@id=\"post-author\"]",
+                         "elementTag":  "input",
+                         "elementText":  null,
+                         "attributes":  "{\"type\":\"text\",\"placeholder\":\"작성자명을 입력하세요\",\"class\":\"w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 borde\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "SELECT",
+                         "elementId":  "post-category",
+                         "elementName":  "post-category",
+                         "elementXpath":  "//*[@id=\"post-category\"]",
+                         "elementTag":  "select",
+                         "elementText":  "공지\n자유\n질문",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:rin\",\"href\":null,\"value\":\"free\"}"
+                     },
+                     {
+                         "elementType":  "CHECKBOX",
+                         "elementId":  null,
+                         "elementName":  null,
+                         "elementXpath":  "/html/body/div/div[2]/main/div/form/div/div[3]/label/input",
+                         "elementTag":  "input",
+                         "elementText":  null,
+                         "attributes":  "{\"type\":\"checkbox\",\"placeholder\":null,\"class\":\"w-4 h-4 rounded border-gray-300 text-blue-600 focus:ring-blue-500\",\"href\":null,\"value\":\"on\"}"
+                     },
+                     {
+                         "elementType":  "INPUT",
+                         "elementId":  "post-content",
+                         "elementName":  "post-content",
+                         "elementXpath":  "//*[@id=\"post-content\"]",
+                         "elementTag":  "textarea",
+                         "elementText":  null,
+                         "attributes":  "{\"type\":null,\"placeholder\":\"내용을 입력하세요 (최소 10자)\",\"class\":\"w-full px-3 py-2 border rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-blue-500 resiz\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "취소",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/form/div/div[5]/button",
+                         "elementTag":  "button",
+                         "elementText":  "취소",
+                         "attributes":  "{\"type\":\"button\",\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-4 py-2 text-sm rounded-lg border border-gray-300 text-gray-600 hover:bg\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "등록",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/form/div/div[5]/button[2]",
+                         "elementTag":  "button",
+                         "elementText":  "등록",
+                         "attributes":  "{\"type\":\"submit\",\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-4 py-2 text-sm rounded-lg bg-blue-600 text-white hover:bg-blue-700\",\"href\":null,\"value\":null}"
+                     }
+                 ]
+}

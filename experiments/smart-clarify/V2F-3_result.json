@@ -1,0 +1,117 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "할일 항목에 반드시 포함되어야 할 정보는 무엇인가요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "title",
+          "label": "제목"
+        },
+        {
+          "value": "description",
+          "label": "설명/메모"
+        },
+        {
+          "value": "dueDate",
+          "label": "마감일"
+        },
+        {
+          "value": "priority",
+          "label": "우선순위"
+        },
+        {
+          "value": "assignee",
+          "label": "담당자"
+        },
+        {
+          "value": "category",
+          "label": "카테고리/라벨"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "할일 리스트에서 어떤 방식으로 항목을 정렬할 수 있나요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "byDueDate",
+          "label": "마감일 기준 정렬"
+        },
+        {
+          "value": "byPriority",
+          "label": "우선순위 기준 정렬"
+        },
+        {
+          "value": "byCategory",
+          "label": "카테고리 기준 정렬"
+        },
+        {
+          "value": "byCompletion",
+          "label": "완료 여부 기준 정렬"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "사용자가 완료한 할일 항목을 처리하는 방법은 무엇인가요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "markAsCompleted",
+          "label": "완료 체크 후 숨김"
+        },
+        {
+          "value": "keepInList",
+          "label": "리스트에 남기기"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "할일을 검색할 때 어떤 필터를 사용하면 좋을까요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "byTitle",
+          "label": "제목으로 검색"
+        },
+        {
+          "value": "byAssignee",
+          "label": "담당자로 검색"
+        },
+        {
+          "value": "byDueDate",
+          "label": "마감일로 검색"
+        },
+        {
+          "value": "byCategory",
+          "label": "카테고리로 검색"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "할일 항목의 드래그 정렬 기능은 어떻게 구현되어야 하나요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "allowReorder",
+          "label": "항목 재정렬 가능"
+        },
+        {
+          "value": "fixedOrder",
+          "label": "고정된 순서 유지"
+        }
+      ]
+    }
+  ],
+  "summary": "할일 관리 페이지에서 사용자 경험을 향상시키기 위한 중요한 질문들입니다.",
+  "recommendedCounts": [
+    5,
+    7,
+    10
+  ]
+}

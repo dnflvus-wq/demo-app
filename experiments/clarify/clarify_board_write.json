@@ -1,0 +1,75 @@
+﻿{
+    "questions":  [
+                      {
+                          "id":  "q1",
+                          "question":  "집중적으로 테스트할 비정상 시나리오는 무엇인가요?",
+                          "questionType":  "multi",
+                          "options":  [
+                                          {
+                                              "value":  "잘못된 형식의 제목/내용",
+                                              "label":  "잘못된 형식의 제목/내용"
+                                          },
+                                          {
+                                              "value":  "필수 입력 항목 누락",
+                                              "label":  "필수 입력 항목 누락"
+                                          },
+                                          {
+                                              "value":  "최대 길이 초과 입력",
+                                              "label":  "최대 길이 초과 입력"
+                                          },
+                                          {
+                                              "value":  "네트워크 오류 발생",
+                                              "label":  "네트워크 오류 발생"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q2",
+                          "question":  "입력값 경계 조건 중 포함할 항목은 무엇인가요?",
+                          "questionType":  "multi",
+                          "options":  [
+                                          {
+                                              "value":  "빈 제목/내용",
+                                              "label":  "빈 제목/내용"
+                                          },
+                                          {
+                                              "value":  "최대 길이의 제목",
+                                              "label":  "최대 길이의 제목"
+                                          },
+                                          {
+                                              "value":  "특수문자 포함",
+                                              "label":  "특수문자 포함"
+                                          },
+                                          {
+                                              "value":  "0글자 입력",
+                                              "label":  "0글자 입력"
+                                          }
+                                      ]
+                      },
+                      {
+                          "id":  "q3",
+                          "question":  "사용자 유형별 테스트가 필요한가요?",
+                          "questionType":  "single",
+                          "options":  [
+                                          {
+                                              "value":  "모든 사용자(관리자+일반)",
+                                              "label":  "모든 사용자(관리자+일반)"
+                                          },
+                                          {
+                                              "value":  "일반 사용자만",
+                                              "label":  "일반 사용자만"
+                                          },
+                                          {
+                                              "value":  "관리자만",
+                                              "label":  "관리자만"
+                                          }
+                                      ]
+                      }
+                  ],
+    "summary":  "DemoApp 게시판 쓰기 페이지 테스트를 위한 질문 생성.",
+    "recommendedCounts":  [
+                              30,
+                              50,
+                              70
+                          ]
+}

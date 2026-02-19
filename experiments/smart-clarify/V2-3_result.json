@@ -1,0 +1,116 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "할일 항목에서 어떤 정보가 가장 중요한가요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "제목",
+          "label": "제목"
+        },
+        {
+          "value": "설명/메모",
+          "label": "설명/메모"
+        },
+        {
+          "value": "마감일",
+          "label": "마감일"
+        },
+        {
+          "value": "우선순위",
+          "label": "우선순위"
+        },
+        {
+          "value": "담당자",
+          "label": "담당자"
+        },
+        {
+          "value": "카테고리/라벨",
+          "label": "카테고리/라벨"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "할일 목록을 어떻게 필터링하고 싶나요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "마감일",
+          "label": "마감일 기준"
+        },
+        {
+          "value": "우선순위",
+          "label": "우선순위 기준"
+        },
+        {
+          "value": "담당자",
+          "label": "담당자 기준"
+        },
+        {
+          "value": "카테고리/라벨",
+          "label": "카테고리/라벨 기준"
+        },
+        {
+          "value": "완료 여부",
+          "label": "완료 여부 기준"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "할일 목록에서 정렬 방식을 어떻게 설정하고 싶나요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "마감일 순",
+          "label": "마감일 순"
+        },
+        {
+          "value": "우선순위 순",
+          "label": "우선순위 순"
+        },
+        {
+          "value": "제목 순",
+          "label": "제목 순"
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "완료된 할일 항목을 어떻게 처리하고 싶나요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "삭제",
+          "label": "삭제"
+        },
+        {
+          "value": "아카이브",
+          "label": "아카이브"
+        },
+        {
+          "value": "숨기기",
+          "label": "숨기기"
+        },
+        {
+          "value": "다시 보기",
+          "label": "다시 보기"
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "할일 항목의 드래그 방식에 대해 어떻게 생각하시나요?",
+      "questionType": "text",
+      "options": []
+    }
+  ],
+  "summary": "사용자에게 할일 관리의 주요 요소에 대한 의견을 묻고, 목록 작업 및 완료 처리 방식에 대해 구체적으로 질문합니다.",
+  "recommendedCounts": [
+    5,
+    7,
+    10
+  ]
+}

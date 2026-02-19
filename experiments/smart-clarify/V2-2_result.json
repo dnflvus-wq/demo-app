@@ -1,0 +1,97 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "제목과 본문 입력란의 유효성 검사를 어떻게 진행해야 하나요?",
+      "questionType": "text",
+      "options": []
+    },
+    {
+      "id": "q2",
+      "question": "카테고리 선택 시 선택하지 않았을 경우 어떤 알림을 제공해야 하나요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "경고 알림",
+          "label": "제목과 본문 입력란의 유효성 검사를 어떻게 할 것인가?"
+        },
+        {
+          "value": "예외처리",
+          "label": "작성 버튼 클릭 시 아예 등록을 막는다."
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "태그 입력 란의 최대 글자 수와 형식 제한이 있을까요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "최대 30자",
+          "label": "태그는 최대 30자 이내"
+        },
+        {
+          "value": "특수문자 사용 금지",
+          "label": "특수문자 사용은 금지한다."
+        }
+      ]
+    },
+    {
+      "id": "q4",
+      "question": "파일 첨부 시 허용되는 파일 형식 및 크기 제한은 어떻게 해야 하나요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "JPG, PNG, PDF",
+          "label": "허용되는 파일 형식은 JPG, PNG, PDF"
+        },
+        {
+          "value": "최대 5MB",
+          "label": "파일 크기는 최대 5MB로 제한해야 한다."
+        }
+      ]
+    },
+    {
+      "id": "q5",
+      "question": "공개/비공개 설정을 선택하지 않았을 때, 기본값은 어떻게 설정해야 하나요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "비공개로 설정",
+          "label": "비공개가 기본값이다."
+        },
+        {
+          "value": "공개로 설정",
+          "label": "공개가 기본값이다."
+        }
+      ]
+    },
+    {
+      "id": "q6",
+      "question": "임시저장 기능을 사용할 때, 사용자가 알림을 받을 방법은 무엇인가요?",
+      "questionType": "text",
+      "options": []
+    },
+    {
+      "id": "q7",
+      "question": "등록 버튼 클릭 후의 동작은 어떻게 설정해야 하나요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "작성 완료 페이지로 이동",
+          "label": "작성 완료 후 새 글 페이지로 이동"
+        },
+        {
+          "value": "작성 내역에 추가",
+          "label": "작성한 글을 게시판 목록에 추가했다."
+        }
+      ]
+    }
+  ],
+  "summary": "게시판 글쓰기 페이지의 주요 요소와 동작에 관한 테스트 케이스를 구성했습니다. 각 질문은 입력의 유효성, 알림, 제한사항 등을 포함하고 있습니다.",
+  "recommendedCounts": [
+    3,
+    5,
+    7
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "questions": [
+    {
+      "id": "q1",
+      "question": "이 페이지에 어떤 요소가 있나요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "제목",
+          "label": "제목"
+        },
+        {
+          "value": "설명/메모",
+          "label": "설명/메모"
+        },
+        {
+          "value": "마감일",
+          "label": "마감일"
+        },
+        {
+          "value": "우선순위",
+          "label": "우선순위"
+        },
+        {
+          "value": "담당자",
+          "label": "담당자"
+        },
+        {
+          "value": "카테고리/라벨",
+          "label": "카테고리/라벨"
+        }
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "할일 항목 완료 시 어떤 피드백이 표시되나요?",
+      "questionType": "single",
+      "options": [
+        {
+          "value": "완료 항목이 목록에서 숨겨진다",
+          "label": "완료 항목이 목록에서 숨겨진다"
+        },
+        {
+          "value": "완료 표시가 체크된다",
+          "label": "완료 표시가 체크된다"
+        },
+        {
+          "value": "전환 알림이 표시된다",
+          "label": "전환 알림이 표시된다"
+        }
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "할일 목록에서 어떤 필터/정렬 기능이 있나요?",
+      "questionType": "multi",
+      "options": [
+        {
+          "value": "마감일 기준 정렬",
+          "label": "마감일 기준 정렬"
+        },
+        {
+          "value": "우선순위 기준 정렬",
+          "label": "우선순위 기준 정렬"
+        },
+        {
+          "value": "카테고리별 필터",
+          "label": "카테고리별 필터"
+        },
+        {
+          "value": "담당자별 필터",
+          "label": "담당자별 필터"
+        }
+      ]
+    }
+  ],
+  "summary": "할일 관리 페이지의 주요 요소와 기능 확인",
+  "recommendedCounts": [
+    25,
+    40,
+    60
+  ]
+}

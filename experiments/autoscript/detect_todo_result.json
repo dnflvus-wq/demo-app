@@ -1,0 +1,115 @@
+﻿{
+    "pageTitle":  "DemoApp - Todo \u0026 Board",
+    "thumbnail":  "[REMOVED]",
+    "elementSummary":  "{\"link\":4,\"input\":3,\"select\":1,\"button\":4}",
+    "elements":  [
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "DemoApp",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/a",
+                         "elementTag":  "a",
+                         "elementText":  "DemoApp",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"text-xl font-bold text-blue-600\",\"href\":\"/\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Home",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a",
+                         "elementTag":  "a",
+                         "elementText":  "Home",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 h\",\"href\":\"/\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Todo",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a[2]",
+                         "elementTag":  "a",
+                         "elementText":  "Todo",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors bg-blue-50 text\",\"href\":\"/todo\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "LINK",
+                         "elementId":  null,
+                         "elementName":  "Board",
+                         "elementXpath":  "/html/body/div/div[2]/header/div/nav/a[3]",
+                         "elementTag":  "a",
+                         "elementText":  "Board",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-3 py-2 rounded-lg text-sm font-medium transition-colors text-gray-600 h\",\"href\":\"/board\",\"value\":null}"
+                     },
+                     {
+                         "elementType":  "INPUT",
+                         "elementId":  "todo-title",
+                         "elementName":  "todo-title",
+                         "elementXpath":  "//*[@id=\"todo-title\"]",
+                         "elementTag":  "input",
+                         "elementText":  null,
+                         "attributes":  "{\"type\":\"text\",\"placeholder\":\"할 일을 입력하세요\",\"class\":\"w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:rin\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "INPUT",
+                         "elementId":  "todo-desc",
+                         "elementName":  "todo-desc",
+                         "elementXpath":  "//*[@id=\"todo-desc\"]",
+                         "elementTag":  "textarea",
+                         "elementText":  null,
+                         "attributes":  "{\"type\":null,\"placeholder\":\"설명 (선택사항)\",\"class\":\"w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:rin\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "SELECT",
+                         "elementId":  "todo-priority",
+                         "elementName":  "todo-priority",
+                         "elementXpath":  "//*[@id=\"todo-priority\"]",
+                         "elementTag":  "select",
+                         "elementText":  "높음\n보통\n낮음",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"w-full px-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focus:rin\",\"href\":null,\"value\":\"medium\"}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "추가",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/form/div/div[3]/div[2]/button",
+                         "elementTag":  "button",
+                         "elementText":  "추가",
+                         "attributes":  "{\"type\":\"submit\",\"placeholder\":null,\"class\":\"flex items-center gap-1.5 px-4 py-2 text-sm rounded-lg bg-blue-600 text-white hover:bg-blue-700\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "전체",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div/div/button",
+                         "elementTag":  "button",
+                         "elementText":  "전체",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"px-3 py-1.5 text-sm rounded-md font-medium transition-colors bg-white text-blue-600 shadow-sm\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "진행중",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div/div/button[2]",
+                         "elementTag":  "button",
+                         "elementText":  "진행중",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"px-3 py-1.5 text-sm rounded-md font-medium transition-colors text-gray-500 hover:text-gray-700\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "BUTTON",
+                         "elementId":  null,
+                         "elementName":  "완료",
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div/div/button[3]",
+                         "elementTag":  "button",
+                         "elementText":  "완료",
+                         "attributes":  "{\"type\":null,\"placeholder\":null,\"class\":\"px-3 py-1.5 text-sm rounded-md font-medium transition-colors text-gray-500 hover:text-gray-700\",\"href\":null,\"value\":null}"
+                     },
+                     {
+                         "elementType":  "INPUT",
+                         "elementId":  null,
+                         "elementName":  null,
+                         "elementXpath":  "/html/body/div/div[2]/main/div/div/div[2]/input",
+                         "elementTag":  "input",
+                         "elementText":  null,
+                         "attributes":  "{\"type\":\"text\",\"placeholder\":\"검색...\",\"class\":\"w-full pl-9 pr-3 py-2 border border-gray-300 rounded-lg text-sm focus:outline-none focus:ring-2 focu\",\"href\":null,\"value\":null}"
+                     }
+                 ]
+}
