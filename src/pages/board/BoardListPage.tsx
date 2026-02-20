@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { Plus, Lock, ChevronLeft, ChevronRight } from 'lucide-react';
 import { getPosts } from '../../utils/storage';
 
-const PAGE_SIZE = 5;
+const PAGE_SIZE = 10;
 const categoryLabel: Record<string, string> = { notice: '공지', free: '자유', question: '질문' };
 const categoryColor: Record<string, string> = {
   notice: 'bg-red-100 text-red-600',
