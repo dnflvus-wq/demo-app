@@ -111,6 +111,7 @@ export default function BoardWritePage({ addToast }: Props) {
               data-testid="post-title"
             />
             {errors.title && <p className="text-red-500 text-xs mt-1" data-testid="error-title">{errors.title}</p>}
+            <p className="text-xs text-gray-400 mt-1 text-right">{title.length}/100자</p>
           </div>
 
           {/* Author */}
