@@ -1,16 +1,23 @@
+import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowRight, CheckSquare, FileText } from 'lucide-react';
-import { getTodos, getPosts } from '../utils/storage';
+import { fetchTodos, fetchPosts } from '../utils/storage';
+import type { Todo, Post } from '../types';
 
 export default function HomePage() {
   const navigate = useNavigate();
-  const todos = getTodos();
-  const posts = getPosts();
+  const [todos, setTodos] = useState<Todo[]>([]);
+  const [posts, setPosts] = useState<Post[]>([]);
+
+  useEffect(() => {
+    fetchTodos().then(setTodos);
+    fetchPosts().then(setPosts);
+  }, []);
 
   const totalTodos = todos.length;
   const completedTodos = todos.filter((t) => t.completed).length;
   const activeTodos = totalTodos - completedTodos;
-  const recentPosts = posts.slice(-3).reverse();
+  const recentPosts = posts.slice(0, 3); // DB already returns DESC
 
   return (
     <div data-testid="home-page">
@@ -60,6 +67,21 @@ export default function HomePage() {
           </div>
           <ArrowRight className="w-5 h-5 ml-auto text-gray-400" />
         </button>
+      </div>
+
+      {/* Embedded Contact Form */}
+      <div className="bg-white rounded-xl border border-gray-200 p-5 mb-8" data-testid="embed-section">
+        <h2 className="text-lg font-semibold text-gray-800 mb-4" data-testid="embed-section-title">
+          문의하기
+        </h2>
+        <iframe
+          id="contact-frame"
+          src="/embed"
+          title="문의 양식"
+          className="w-full border-0 rounded-lg"
+          style={{ height: '480px' }}
+          data-testid="contact-iframe"
+        />
       </div>
 
       {/* Recent Posts */}

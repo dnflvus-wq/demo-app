@@ -8,6 +8,7 @@ import TodoPage from './pages/todo/TodoPage';
 import BoardListPage from './pages/board/BoardListPage';
 import BoardWritePage from './pages/board/BoardWritePage';
 import BoardDetailPage from './pages/board/BoardDetailPage';
+import EmbedPage from './pages/EmbedPage';
 import type { ToastMessage, ToastType } from './types';
 
 export default function App() {
@@ -33,6 +34,7 @@ export default function App() {
           <Route path="/board/write" element={<BoardWritePage addToast={addToast} />} />
           <Route path="/board/write/:id" element={<BoardWritePage addToast={addToast} />} />
           <Route path="/board/:id" element={<BoardDetailPage addToast={addToast} />} />
+          <Route path="/embed" element={<EmbedPage />} />
         </Route>
       </Routes>
     </>
