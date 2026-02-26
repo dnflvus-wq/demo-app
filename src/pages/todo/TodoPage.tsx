@@ -39,7 +39,7 @@ export default function TodoPage({ addToast }: Props) {
         t.id === editingId ? { ...t, title: title.trim(), description: desc.trim(), priority } : t
       );
       persist(updated);
-      addToast('success', 'Todo가 수정되었습니다');
+      addToast('success', 'Todo가 성공적으로 수정되었습니다');
       setEditingId(null);
     } else {
       const newTodo: Todo = {
