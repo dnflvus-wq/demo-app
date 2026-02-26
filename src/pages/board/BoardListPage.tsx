@@ -51,7 +51,7 @@ export default function BoardListPage() {
             {paged.length === 0 ? (
               <tr>
                 <td colSpan={6} className="py-8 text-center text-gray-400" data-testid="board-empty">
-                  게시글이 없습니다.
+                  아직 작성된 게시글이 없습니다.
                 </td>
               </tr>
             ) : (
